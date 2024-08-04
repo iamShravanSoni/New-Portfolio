@@ -53,7 +53,7 @@ const Hero = () => {
           />
 
           <p className="text-center font-semibold light:text-black dark:text-white md:tracking-wider mb-4 text-sm md:text-3xl lg:text-3xl">
-            Hi! I&apos;m Adrian, a{" "}
+            Hi! I&apos;m Shravan Soni, a{" "}
             <span className="text-purple">Web Developer</span>
           </p>
 

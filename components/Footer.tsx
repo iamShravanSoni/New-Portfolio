@@ -16,7 +16,7 @@ function Footer() {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-xl md:text-4xl">
+        <h1 className="heading lg:max-w-[45vw] text-white text-xl md:text-4xl">
           Ready to take <span className="text-purple">your</span> digital
           presence to the next level?
         </h1>
@@ -33,7 +33,7 @@ function Footer() {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal text-white font-light">
           Copyright © 2024 Adrian Hajdin
         </p>
 

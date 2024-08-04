@@ -9,7 +9,7 @@ import {Grid} from "@/components/Grid";
 
 export default function Home() {
   return (
-    <main className="relative overflow-hidden">
+    <main className="relative flex justify-center items-center flex-col overflow-hidden flex justify-center items-center flex-col">
       <div className="">
         <FloatingNav navItems={navItems} />
         <Hero />
