@@ -14,7 +14,7 @@ import {
 
 export function Grid() {
   return (
-    <div className="bg-[#e7fafa]">
+    <div className="bg-[#e7fafa]" id="about">
       <h2 className="text-center text-xl md:text-4xl pb-8 pt-9 font-bold light:text-black dark:text-white">
         My some advantages
       </h2>

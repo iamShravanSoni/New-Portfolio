@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-10">
+    <div className="py-10" id="projects">
       <h2 className="text-center text-xl md:text-4xl font-bold light:text-black dark:text-white">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
