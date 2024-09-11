@@ -15,8 +15,9 @@ import {
 export function Grid() {
   return (
     <div className="bg-[#e7fafa]" id="about">
-      <h2 className="text-center text-xl md:text-4xl pb-8 pt-9 font-bold light:text-black dark:text-white">
-        My some advantages
+      <h2 className="text-center text-xl md:text-4xl font-bold light:text-black dark:text-white">
+        I have{" "}
+        <span className="text-purple">some advantages</span>
       </h2>
       <BentoGrid className="max-w-4xl mx-auto pb-8">
         {items.map((item, i) => (
