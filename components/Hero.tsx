@@ -3,10 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import {Mode} from "./Mode"
 
 const Hero = () => {
   return (
-    <div className=" pt-36" id="home">
+    <div className="relative pt-36" id="home">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -57,7 +58,7 @@ const Hero = () => {
             <span className="text-purple">Web Developer</span>
           </p>
 
-          <a href="mailto:contact@jsmastery.pro">
+          <a href="mailto:itsshravansoni05@gmail.com">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -65,6 +66,9 @@ const Hero = () => {
             />
           </a>
         </div>
+      </div>
+      <div className="fixed right-10 top-[42.5rem] lg:top-[35rem] md:top-[35rem]">
+        <Mode />
       </div>
     </div>
   );

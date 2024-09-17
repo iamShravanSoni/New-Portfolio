@@ -25,15 +25,23 @@ export const projects = [
   {
     id: 3,
     title: `Transform Your Shop`,
-    des: "In Development Mode",
+    des: "Store",
     img: "https://cdn.dribbble.com/userupload/7237621/file/original-2fb2c320cac52c9230211673db49e770.png?resize=400x300&vertical=center",
+    iconLists: ["/nextjs-svgrepo-com.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://nextjs-ecommerce-store-gamma.vercel.app/",
+  },
+  {
+    id: 4,
+    title: `Transform Your Shop Dashboard`,
+    des: "Admin Dasboard",
+    img: "https://s.tmimgcdn.com/scr/800x500/224800/tpro-html-responsive-bootstrap-admin-dashboard-template_224893-original.jpg",
     iconLists: [
-      "./nextjs-svgrepo-com (1).svg",
+      "/nextjs-icon-svgrepo-com (1).svg",
       "/tail.svg",
       "/ts.svg",
       "/c.svg",
     ],
-    link: "In Development Mode",
+    link: "https://nextjs-ecommerce-adminside.vercel.app/",
   },
   {
     id: 5,
@@ -49,7 +57,7 @@ export const projects = [
     link: "https://unstoppable-coder-reimagine-round2.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Arata Website Design",
     des: "Recreated the Arata website Design, combining GSAP animations..",
     img: "./Screenshot (7).png",
@@ -66,33 +74,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shravan is a good developer who not only delivers great work but is always upgrading his skills to stay on top of the latest technologies. His dedication to improving himself shows in the quality of his projects. He’s always looking for ways to grow, and his proactive approach makes him a valuable asset. Beyond his technical abilities, Shravan is approachable and always willing to help others, making him a great teammate to work with.",
+    name: "Aniket Gupta",
+    title: "Web Developer",
+    src: "/aniket_bhaiya.jfif",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shravan is an eager learner who picks up new technologies quickly and has a solid understanding of development concepts. He’s always ready to dive in, ask clear and thoughtful questions when needed, and isn’t afraid to clarify doubts. His curiosity and drive to learn make him a valuable team member, and it’s been great to see how he consistently improves his skills with each project.",
+    name: "Dheeraj Sharma",
+    title: "Software Developer at Newput Infotech Pvt. Limited",
+    src: "/mohit_bhaiya1.jfif",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I’ve worked with Shravan on a few projects, and he’s a really solid web developer. We teamed up for a hackathon where he took the lead, and his problem-solving skills stood out. He’s always coming up with creative ideas and finding smart ways to tackle challenges. Plus, he’s a great team player and easy to work with, keeping things organized and on track. Definitely someone you can count on to get the job done.",
+    name: "Sudhir Singh",
+    title: "Web Developer",
+    src: "/sudhir.jpg",
   },
 ];
 
@@ -123,48 +122,20 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/iamShravanSoni",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Shravansoni0108",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/shravan-soni/",
   },
 ];
