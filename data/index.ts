@@ -28,7 +28,7 @@ export const projects = [
     des: "Store",
     img: "https://cdn.dribbble.com/userupload/7237621/file/original-2fb2c320cac52c9230211673db49e770.png?resize=400x300&vertical=center",
     iconLists: ["/nextjs-svgrepo-com.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-    link: "https://nextjs-ecommerce-store-gamma.vercel.app/",
+    link: "https://nextjs-ecommerce-store-tan.vercel.app/",
   },
   {
     id: 4,
